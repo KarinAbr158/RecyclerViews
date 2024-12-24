@@ -55,7 +55,7 @@ public class MainActivity extends AppCompatActivity {
                 String et = query.getText().toString();
                 for(Student student : students){
                     if(student.name.equals(et)){
-                        txt.setText(student.score);
+                        txt.setText(student.toString());
                     }
                 }
             }
